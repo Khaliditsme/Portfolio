@@ -144,8 +144,8 @@ const Contact = () => {
                   name="messsage"
                   required
                   autoComplete="off"
-                  className="border-2 border-black w-[70%] h-[50%] rounded-md p-2"
-                  placeholder="Type your message here..."
+                  className="border-2 border-black w-[149%] md:w-[70%] h-[50%] rounded-md p-2"
+                  placeholder="Type your message here"
                 ></textarea>
               </div>
               <div className="flex flex-col justify-between items-center">
