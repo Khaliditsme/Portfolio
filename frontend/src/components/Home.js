@@ -5,6 +5,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
+const url = "https://portfolio-33v4.onrender.com";
 const Home = () => {
   const skills = [
     'frontend development',
@@ -101,13 +102,16 @@ const Home = () => {
 
     const SendMail = async () => {
       try {
-        const response = await axios.post("http://localhost:8000/contact", {
-          fname,
-          lname,
-          email,
-          subject,
-          message,
-        });
+        const response = await axios.post(
+          "https://portfolio-33v4.onrender.com/contact",
+          {
+            fname,
+            lname,
+            email,
+            subject,
+            message,
+          }
+        );
         console.log("success");
         setresult(true);
       } catch (err) {

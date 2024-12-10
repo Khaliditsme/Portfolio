@@ -13,13 +13,16 @@ const Contact = () => {
   const sendmail = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:8000/contact', {
-        fname,
-        lname,
-        email,
-        subject,
-        message,
-      });
+      const response = await axios.post(
+        "https://portfolio-33v4.onrender.com/contact",
+        {
+          fname,
+          lname,
+          email,
+          subject,
+          message,
+        }
+      );
       console.log('success');
       setresult(true);
     } catch (err) {
