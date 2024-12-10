@@ -173,19 +173,19 @@ const Home = () => {
       </div>
 
       <div className="flex flex-col justify-center items-center">
-        <div className="font-semibold text-2xl sm:text-2xl md:text-3xl lg:text-5xl m-2">
+        <div className="font-semibold text-3xl sm:text-2xl md:text-3xl lg:text-5xl m-2">
           Coffee With Me
         </div>
-        <div className="text-[25px] sm:text-1xl md:text-2xl lg:text-3xl text-grey m-2 text-center">
+        <div className=" text-[18px] sm:text-1xl md:text-2xl lg:text-3xl text-grey m-2 text-center">
           I am always excited to work on some awesome projects, message me and
           let's discuss over coffee.
         </div>
         
-        <div className='flex flex-col justify-center items-center'>
-          <div className="text-2xl font-semibold sm:text-1xl md:text-2xl lg:text-3xl text-grey  mt-9">{text}</div>
+        <div className='flex flex-col justify-center items-start'>
+          <div className="text-[16px] md:text-2xl  sm:text-1xl md:text-2xl lg:text-3xl text-grey  mt-9">{text}</div>
           <div>
             <div className="flex flex-row justify-center items-center">
-              <input type="text" value={raw} onChange={(e)=>setraw(e.target.value)} className="border-2 border-black bg-grey h-10 w-[40vw] mt-5 bg-fumewhite"/>
+              <input type="text" value={raw} onChange={(e)=>setraw(e.target.value)} className="border-2 border-black bg-grey h-10 w-[40vw] mt-1 bg-fumewhite"/>
               <button className="font-extrabold text-5xl" onClick={movenext}>→</button>
             </div>
               <div className='flex flex-col justify-end items-end'><h1>{count}/4</h1></div>
