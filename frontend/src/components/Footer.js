@@ -89,7 +89,7 @@ const Footer = () => {
       </div>
 
         <div>
-            <img src={footer} alt="" className="h-[30vh] w-full object-contain" />
+            <img src={footer} alt="" className=" md:h-[30vh] md:object-contain w-full object-cover" />
           </div>
       </div>
   );

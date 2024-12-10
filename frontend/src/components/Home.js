@@ -150,13 +150,13 @@ const Home = () => {
           </p>
 
           <div className="flex flex-wrap justify-center sm:justify-start gap-6 sm:gap-8">
-            <div className="w-40 h-30  lg:h-30 lg:w-40 border-2 border-black rounded-full bg-red p-6 sm:p-10 font-semibold text-sm sm:text-1xl md:text-2xl lg:text-2xl flex items-center justify-center">
+            <div className="w-30 h-25  lg:h-30 lg:w-40 border-2 border-black rounded-full bg-red p-4 lg:p-10 font-semibold text-sm sm:text-1xl md:text-2xl lg:text-2xl flex items-center justify-center">
               <Link to="/resume">Resume</Link>
             </div>
-            <div className="w-40 h-30 lg:h-30 lg:w-40 border-2 border-black rounded-full bg-red p-6 sm:p-10 font-semibold text-sm sm:text-1xl md:text-2xl lg:text-2xl flex items-center justify-center">
+            <div className="w-30 h-25 lg:h-30 lg:w-40 border-2 border-black rounded-full bg-red p-4 lg:p-10 font-semibold text-sm sm:text-1xl md:text-2xl lg:text-2xl flex items-center justify-center">
               <Link to="/project">Projects</Link>
             </div>
-            <div className="w-40 h-30 lg:h-30 lg:w-40 border-2 border-black rounded-full bg-red p-6 sm:p-10 font-semibold text-sm sm:text-1xl md:text-2xl lg:text-2xl flex items-center justify-center">
+            <div className="w-30 h-25 lg:h-30 lg:w-40 border-2 border-black rounded-full bg-red p-4 lg:p-10 font-semibold text-sm sm:text-1xl md:text-2xl lg:text-2xl flex items-center justify-center">
               <Link to="/contact">Contact</Link>
             </div>
           </div>
