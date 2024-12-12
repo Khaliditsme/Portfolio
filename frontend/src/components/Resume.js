@@ -49,7 +49,7 @@ const Resume = () => {
             <div className='underline decoration-2'>2019-2020</div>
             <div className='ml-5'>
               <h2>Sushant Public School </h2>
-              <p>Information Technology</p>
+              <p>Physics Chemistry Mathematics(PCM)</p>
               <p>
                 <span className='font-bold'>95.4%</span> CBSE
               </p>
@@ -153,10 +153,10 @@ const Resume = () => {
               Certification from Udemy
             </li>
             <li>
-              <span className='font-semibold'>
-                Data Structures and Algorithm
+              <span className='font-semibold mr-1'>
+                Data Structures and Algorithms
               </span>
-              Certification from Udemy
+               Certification from Udemy
             </li>
             <li>
               <span className='font-semibold'> C/C++ and OOPs Concept</span>{' '}
