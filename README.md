@@ -40,6 +40,7 @@ This project was built using these technologies.
 - VsCode
 - Vercel
 - Render
+- Webpack
 
 ## Features
 
