@@ -42,7 +42,7 @@ const Resume = () => {
               <h2>NIT Jalandhar </h2>
               <p>Information Technology</p>
               <p>
-                <span className="font-bold">7.99</span>/10
+                <span className="font-bold">8.00</span>/10
               </p>
             </div>
             <br />
