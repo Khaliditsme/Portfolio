@@ -36,7 +36,7 @@ const App = () => {
         },
         {
           path: '/',
-          element: <Body/>,
+          element: <Home/>,
         },
         {
           path: '/test',
